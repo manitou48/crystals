@@ -45,4 +45,9 @@ the NTP host.
  http://www.maximintegrated.com/datasheet/index.mvp/id/4627?ver=C&utm_expid=50713806-2
 
 I conncted a 32Khz crystal to Maple and to breadboard 328p (with and
-without 22pf load capacitors).
+without 22pf load capacitors). Frequency is affected by load capacitance,
+temperature, voltage and aging.
+
+Here are similar experiments by Joris using the pps from a GPS module
+
+  http://jorisvr.nl/arduino_frequency.html
