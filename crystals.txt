@@ -30,6 +30,7 @@
   avr328p  RC  8Mhz     RC      1%       4061         OSCCAL units 4000 ppm
   avr328p  RC  8Mhz     RC      1%       -270         OSCCAL units 4000 ppm 3.3v
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
+
   beagle      24MHz*x                    -5          ntp drift
   raspberry   19MHz*x                   -16          ntp drift
   dell desk                             -26          ntp drift
