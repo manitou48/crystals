@@ -1,0 +1,36 @@
+  processor    oscillator      spec    measured(ppm)
+  avr 328p    16Mhz resonator  0.5%     -1330        uno
+              16MHz resonator  0.5%     -1422        breadboard 328p
+              16MHz crystal    50ppm    -42          breadboard 328p
+  avr 328p    11Mhz crystal     ?       -23          3.74v batteries
+  avr 328p    11Mhz crystal     ?       -16          5v
+  avr 128     14Mhz             ?       1738         no schematic, resonator?
+
+  DUE         12MHz*x crystal    ?       -4
+  DUE RTC     32Khz   crystal    ?       3           work in progress
+  DUE RC               RC        ?    -117701
+  maple       8MHz*9  crystal    ?        -5
+  propeller   5Mhz*16 crystal    ?       -40         board1 (quickstart)
+  propeller   5Mhz*16 crystal    ?       -98         board2 (quickstart)
+
+  ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal
+  ds3132 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
+  ds3134 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
+
+  maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
+  328p RTC    32khz   crystal   20ppm     -67        breadboard 328p/RC crystal
+  328p RTC    32khz   crystal   20ppm     -54        "  fewer cap wires
+  328p RTC    32khz   crystal   20ppm     -56        "  fewer cap wires,3.3v
+  328p RTC    32khz   crystal   20ppm      13        "  NO caps 5v
+  328p RTC    32khz   crystal   20ppm      11        "  NO caps 3.3v
+  bad?        32khz   crystal   20ppm   -891019      breadboard 512hz ticks
+
+  avr 328  RC  8Mhz     RC      1%       2100         OSCCAL units 3000 ppm
+  avr 328p RC  8Mhz     RC      1%       2700         OSCCAL units 5000 ppm
+  avr328p  RC  8Mhz     RC      1%       4061         OSCCAL units 4000 ppm
+  avr328p  RC  8Mhz     RC      1%       -270         OSCCAL units 4000 ppm 3.3v
+  maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
+  beagle      24MHz*x                    -5          ntp drift
+  raspberry   19MHz*x                   -16          ntp drift
+  dell desk                             -26          ntp drift
+  dell laptop                           -14          ntp drift
