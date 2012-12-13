@@ -7,8 +7,8 @@
   avr 128     14Mhz             ?       1738         no schematic, resonator?
 
   DUE         12MHz*x crystal    ?       -4
-  DUE RTC     32Khz   crystal    ?       3           work in progress
-  DUE RC               RC        ?    -117701
+  DUE RTC     32Khz   crystal    ?       -3          check using RTT or RTC
+  DUE RC      32KHz    RC        ?    -117701
   maple       8MHz*9  crystal    ?        -5
   propeller   5Mhz*16 crystal    ?       -40         board1 (quickstart)
   propeller   5Mhz*16 crystal    ?       -98         board2 (quickstart)
