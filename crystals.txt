@@ -18,7 +18,7 @@
   ds3134 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
 
   maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
-			   "						   56        NO 22pf capacitors
+       "                                   56        NO 22pf capacitors
   328p RTC    32khz   crystal   20ppm     -67        breadboard 328p/RC crystal
   328p RTC    32khz   crystal   20ppm     -54        "  fewer cap wires
   328p RTC    32khz   crystal   20ppm     -56        "  fewer cap wires,3.3v
