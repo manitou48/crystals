@@ -18,7 +18,7 @@
   ds3134 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
 
   maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
-       "                                   56        NO 22pf capacitors
+               "                           56        NO 22pf capacitors
   328p RTC    32khz   crystal   20ppm     -67        breadboard 328p/RC crystal
   328p RTC    32khz   crystal   20ppm     -54        "  fewer cap wires
   328p RTC    32khz   crystal   20ppm     -56        "  fewer cap wires,3.3v
@@ -27,10 +27,13 @@
   bad?        32khz   crystal   20ppm   -891019      breadboard 512hz ticks
                "                          1907      with no caps 
 
+  avr 168  RC  8Mhz     RC      1%      -2100         OSCCAL units 4000 ppm 3.8v
+    "      RC  8Mhz     RC      1%      -6404          3.3v
+    "      RC  8Mhz     RC      1%      10902          5.0v
   avr 328  RC  8Mhz     RC      1%       2100         OSCCAL units 3000 ppm
   avr 328p RC  8Mhz     RC      1%       2700         OSCCAL units 5000 ppm
   avr328p  RC  8Mhz     RC      1%       4061         OSCCAL units 4000 ppm
-  avr328p  RC  8Mhz     RC      1%       -270         OSCCAL units 4000 ppm 3.3v
+    "      RC  8Mhz     RC      1%       -270          3.3v
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
 
   beagle      24MHz*x                    -5          ntp drift
