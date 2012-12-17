@@ -30,10 +30,13 @@
   avr 168  RC  8Mhz     RC      1%      -2100         OSCCAL units 4000 ppm 3.8v
     "      RC  8Mhz     RC      1%      -6404          3.3v
     "      RC  8Mhz     RC      1%      10902          5.0v
-  avr 328  RC  8Mhz     RC      1%       2100         OSCCAL units 3000 ppm
-  avr 328p RC  8Mhz     RC      1%       2700         OSCCAL units 5000 ppm
-  avr328p  RC  8Mhz     RC      1%       4061         OSCCAL units 4000 ppm
+  avr 328  RC  8Mhz     RC      1%       2100         OSCCAL units 3000 ppm 5v
+  avr328p  RC  8Mhz     RC      1%       4061         OSCCAL units 4000 ppm 5v
     "      RC  8Mhz     RC      1%       -270          3.3v
+  avr 328p RC  8Mhz     RC      1%      21721         OSCCAL units 5000 ppm 3.8v
+    "      RC  8Mhz     RC      1%      -2757         OSCCAL 0x88 (factory 8d)
+    "      RC  8Mhz     RC      1%      -7256         OSCCAL 0x88  3.3v
+    "      RC  8Mhz     RC      1%       4449         OSCCAL 0x88  5v
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
 
   beagle      24MHz*x                    -5          ntp drift
