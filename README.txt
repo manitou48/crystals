@@ -14,6 +14,8 @@ ds3231.ino   MCU program with RTC to send 1khz ticks to NTP host
 
 rtt.ino      DUE sketch to measure RTT/RTC crystal frequency
 
+gpspps.ino   UNO sketch to use GPS pps signal and micros() 
+
 
 
 --------------  details --------------------
@@ -50,6 +52,11 @@ the NTP host.
 I conncted a 32Khz crystal to Maple and to breadboard 328p (with and
 without 22pf load capacitors). Frequency is affected by load capacitance,
 temperature, voltage and aging.
+
+As a second test, hooked up a GPS module's pps pulse to pin 3 on UNO
+and used micros() to measure frequency difference.  Results matched test
+with NTP host (sketch gpspps.ino), and Sparkfun GPS
+  https://www.sparkfun.com/products/465
 
 Here are similar experiments by Joris using the pps from a GPS module
 
