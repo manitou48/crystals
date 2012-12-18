@@ -6,7 +6,7 @@ Files:
 
 crystals.txt  measured ppm frequency offset for various devices
 
-hostdrift.c  NTP host program to pull MCU
+hostdrift.c  NTP host program to poll MCU
 
 drift.ino    MCU program to send millis() to NTP host
 
@@ -29,13 +29,14 @@ the frequency estimate (ppm).  Most devices I tested ran within their
 specs -- except for one bad 32KHz crystal (see crystals.txt).
 
 The AVR (arduino) processors can run off an internal 8MHz RC oscillator.
-The RC circuit is precalibrated at the factory (1%), but you can adjust
-the RC oscillaor by changing in the OSCCAL value. We measured frequency
+The RC circuit is precalibrated at the factory (10%), but you can adjust
+the RC oscillaor by changing in the OSCCAL value. I measured frequency
 offset of various 328 chips and adjust OSCCAL.  Frequency is affected
 by temperature and voltage. Two of the 328p's I have had an optimum OSCCAL,
 one other was improved by changing the OSCCAL value by a few units.
-A unit of OSCCAL varies by chip, but it's around 4000 ppm. 
-See avr328p datasheet figure 29-175 and www.atmel.com/Images/doc2555.pdf
+A unit of OSCCAL varies by chip, but it's around 4000 ppm though non-linear. 
+See avr328p datasheet figure 29-175, sections 8.6, Table 28-1,
+and www.atmel.com/Images/doc2555.pdf
 and  http://arduino.cc/en/Tutorial/ArduinoToBreadboard
 
 The Maxim DS-series RTC's have a SQuare wave output pin that can be enabled.
