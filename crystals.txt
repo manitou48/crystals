@@ -19,11 +19,15 @@
 
   maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
                "                           56        NO 22pf capacitors
+		      32khz   crystal   20ppm     -13         another crystal
+		       "      crystal   20ppm      92        NO 22pf caps
+		      32khz   crystal   20ppm    -110         another crystal
+		        "     crystal   20ppm      91        NO 22pf caps
   328p RTC    32khz   crystal   20ppm     -67        breadboard 328p/RC crystal
-  328p RTC    32khz   crystal   20ppm     -54        "  fewer cap wires
-  328p RTC    32khz   crystal   20ppm     -56        "  fewer cap wires,3.3v
-  328p RTC    32khz   crystal   20ppm      13        "  NO caps 5v
-  328p RTC    32khz   crystal   20ppm      11        "  NO caps 3.3v
+                "     crystal   20ppm     -54        "  fewer cap wires
+                "     crystal   20ppm     -56        "  fewer cap wires,3.3v
+                "     crystal   20ppm      13        "  NO caps 5v
+                "     crystal   20ppm      11        "  NO caps 3.3v
   bad?        32khz   crystal   20ppm   -891019      breadboard 512hz ticks
                "                          1907      with no caps 
 
