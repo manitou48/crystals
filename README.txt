@@ -57,6 +57,8 @@ As a second test, hooked up a GPS module's pps pulse to pin 3 on UNO
 and used micros() to measure frequency difference.  Results matched test
 with NTP host (sketch gpspps.ino), and Sparkfun GPS
   https://www.sparkfun.com/products/465
+We ran a similar sketch on the Maple and DUE with frequency measurements
+matching the NTP tests.
 
 Here are similar experiments by Joris using the pps from a GPS module
 
