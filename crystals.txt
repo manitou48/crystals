@@ -1,9 +1,13 @@
   processor    oscillator      spec    measured(ppm)
   avr 328p    16Mhz resonator  0.5%     -1330        uno
-              16MHz resonator  0.5%     -1422        breadboard 328p
-              16MHz crystal    50ppm    -42          breadboard 328p
+  avr 328p    16MHz resonator  0.5%     -1422        breadboard 328p
+     "        16MHz crystal    50ppm    -42          breadboard 328p
+     "         8MHz crystal    50ppm     -2          breadboard 328p 5v 22pf
+     "         8MHz crystal    50ppm     -16           "  3.3v 22pf
+     "         8MHz crystal    50ppm     184           "  3.3v NO caps
+     "         8MHz crystal    50ppm     217           "    5v NO caps
   avr 328p    11Mhz crystal     ?       -23          3.74v batteries
-  avr 328p    11Mhz crystal     ?       -16          5v
+     "        11Mhz crystal     ?       -16          5v
   avr 128     14Mhz             ?       1738         no schematic, resonator?
 
   DUE         12MHz*x crystal    ?       -4
