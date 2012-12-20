@@ -23,10 +23,10 @@
 
   maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
                "                           56        NO 22pf capacitors
-		      32khz   crystal   20ppm     -13         another crystal
-		       "      crystal   20ppm      92        NO 22pf caps
-		      32khz   crystal   20ppm    -110         another crystal
-		        "     crystal   20ppm      91        NO 22pf caps
+              32khz   crystal   20ppm     -13         another crystal
+               "      crystal   20ppm      92        NO 22pf caps
+              32khz   crystal   20ppm    -110         another crystal
+                "     crystal   20ppm      91        NO 22pf caps
   328p RTC    32khz   crystal   20ppm     -67        breadboard 328p/RC crystal
                 "     crystal   20ppm     -54        "  fewer cap wires
                 "     crystal   20ppm     -56        "  fewer cap wires,3.3v
