@@ -1,7 +1,7 @@
 // DS3231 RTC i2c  temperature
 // http://docs.macetech.com/doku.php/chronodot
 //  A4/A5  SDA,SCL  (uno has internal pullups)   3.3-5v grnd
-// SQ needs 10k pullup for pulse out, external interrupt pin 3
+// SQ needs 4.5K/10k pullup for pulse out, external interrupt pin 3
 // can't disable display and start up host program, so ifef
 //  HOSTSET screws up data for HOSTCHECK
 
@@ -10,7 +10,7 @@
 #include "RTClib.h"
 #include "RTC_DS1307.h"
 
-// define for hostdrift 1024    HOSTSET too if you want to set time
+// define for hostdrift -f 1024    HOSTSET too if you want to set time
 //#define HOSTCHECK
 //#define HOSTSET
 
@@ -20,9 +20,10 @@
 int mode;
 RTC_DS1307 RTC;
 
-volatile unsigned long ticks;
+volatile unsigned long ticks,us;
 
 void handler() {
+	us = micros(); // timestamp tick
 	ticks++;
 }
  
@@ -32,7 +33,7 @@ void setup()
   Serial.begin(9600);
   pinMode(LED_PIN,OUTPUT);
 #ifdef HOSTCHECK
-	enablepps();
+	enablepps(0);
 	check();
 #endif
   dump();
@@ -68,8 +69,13 @@ void loop() {
         showtime();
         break;
      case '3':
-        enablepps();
+        enablepps(0);
         dump();
+        break;
+     case '4':
+        enablepps(1);     // pps 1 hz
+		dump();
+        chkpps();
         break;
      case '8':
         // adjust using unixtime
@@ -154,10 +160,11 @@ void check() {
   }
 }
 
-void enablepps() {
+void enablepps(int dopps) {
     int addr= 0x0e;
-    char c = 0x08; // 1 kHz
+    char c = 0x08; // 0x08 1 kHz   0 1hz  pps
 
+	if (dopps) c = 0; // pps
     attachInterrupt(1,handler,FALLING);
     Wire.beginTransmission(I2CID);
     Wire.write(addr);
@@ -165,6 +172,25 @@ void enablepps() {
     Wire.endTransmission();
 }
 
+
+void chkpps() {
+  // need to run pulse at 1 pps
+  static unsigned long prev = 0;
+  unsigned long t;
+  char str[32];
+
+  ticks = 0;
+  while(!Serial.available()){
+    if (ticks)  {
+            t= us-prev;
+            sprintf(str,"%ld us  %ld ppm",t,t-1000000);
+            Serial.println(str);
+            ticks=0;
+            prev=us;
+    }
+  }
+  return;
+}
 
 void dump() {
     int addr=0;
