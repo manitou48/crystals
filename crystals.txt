@@ -6,6 +6,7 @@
      "         8MHz crystal    50ppm     -16           "  3.3v 22pf
      "         8MHz crystal    50ppm     184           "  3.3v NO caps
      "         8MHz crystal    50ppm     217           "    5v NO caps
+  avr 328p    16Mhz resonator  0.5%      1338        nano gravitech 
   avr 328p    11Mhz crystal     ?       -23          3.74v batteries
      "        11Mhz crystal     ?       -16          5v
   avr 128     14Mhz             ?       1738         no schematic, resonator?
