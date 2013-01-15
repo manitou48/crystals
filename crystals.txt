@@ -6,8 +6,9 @@
      "         8MHz crystal    50ppm     -16           "  3.3v 22pf
      "         8MHz crystal    50ppm     184           "  3.3v NO caps
      "         8MHz crystal    50ppm     217           "    5v NO caps
-  avr 328p    16Mhz resonator  0.5%      1338        nano gravitech 
-  avr 328p    11Mhz crystal     ?       -23          3.74v batteries
+  avr 328p    16Mhz resonator  0.5%      1258        nano gravitech 
+  avr 328p    16Mhz resonator  0.5%     -3283        nano china 
+  avr 328p    11Mhz crystal     ?       -23          ermicro 3.74v batteries
      "        11Mhz crystal     ?       -16          5v
   avr 128     14Mhz             ?       1738         no schematic, resonator?
 
@@ -18,7 +19,7 @@
   propeller   5Mhz*16 crystal    ?       -40         board1 (quickstart)
   propeller   5Mhz*16 crystal    ?       -98         board2 (quickstart)
 
-  ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal
+  ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal i2c
   ds3132 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
   ds3134 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
 
