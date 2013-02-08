@@ -18,7 +18,7 @@ rtt.ino      DUE sketch to measure RTT/RTC crystal frequency
 
 gpspps.ino   UNO sketch to use GPS pps signal and micros() 
 
-
+teensyRTC.pde teensy RTC experiments 32KHz crystal
 
 --------------  details --------------------
 
