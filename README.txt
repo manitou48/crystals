@@ -55,6 +55,12 @@ I conncted a 32Khz crystal to Maple and to breadboard 328p (with and
 without 22pf load capacitors). Frequency is affected by load capacitance,
 temperature, voltage and aging.
 
+I connected a 32KHz crystal to teensy 3.0 (no capacitors required).
+It was accurate to within 4ppm using micros() on teensy and pulse-per-second
+interrupt from the RTC.  The ARM processor on the teensy can be configured
+with different load capacitance and has calibration registers to adjust
+the frequency (see rtc_calibrate());
+
 As a second test, hooked up a GPS module's pps pulse to pin 3 on UNO
 and used micros() to measure frequency difference.  Results matched test
 with NTP host (sketch gpspps.ino), and Sparkfun GPS
