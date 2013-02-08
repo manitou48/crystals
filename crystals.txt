@@ -54,3 +54,15 @@
   raspberry   19MHz*x                   -16          ntp drift
   dell desk                             -26          ntp drift
   dell laptop                           -14          ntp drift
+
+  teensy 3.0 has internal load capacitance that can configured for the 32Khz RTC
+capacitance pf     ppm
+  0                226
+  2                176
+  4                137
+  8                 83
+ 16                 22
+ 20                  4   default
+ 22                 -3
+ 28                -22
+ 30                -26
