@@ -37,6 +37,16 @@
                 "     crystal   20ppm      11        "  NO caps 3.3v
   bad?        32khz   crystal   20ppm   -891019      breadboard 512hz ticks
                "                          1907      with no caps 
+  teensy RTC  32khz   cyrstal   20ppm               select internal capacitance
+                                           226 ppm    0pf
+                                           176        2pf
+                                           137        4
+                                            83        8
+                                            16       16
+                                             4       20pf  default
+                                            -3       22
+                                           -22       28
+                                           -26       30 pf
 
   avr 168  RC  8Mhz     RC     10%      -2100         OSCCAL units 4000 ppm 3.8v
     "      RC  8Mhz     RC     10%      -6404          3.3v
@@ -55,14 +65,3 @@
   dell desk                             -26          ntp drift
   dell laptop                           -14          ntp drift
 
-  teensy 3.0 has internal load capacitance that can configured for the 32Khz RTC
-capacitance pf     ppm
-  0                226
-  2                176
-  4                137
-  8                 83
- 16                 22
- 20                  4   default
- 22                 -3
- 28                -22
- 30                -26
