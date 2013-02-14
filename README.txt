@@ -12,6 +12,8 @@ hostdrift.c  NTP host program to poll MCU
 
 drift.ino    MCU program to send millis() to NTP host
 
+drift.spin   propller program to send millis() to NTP host
+
 ds3231.ino   MCU program with RTC to send 1khz ticks to NTP host
 
 rtt.ino      DUE sketch to measure RTT/RTC crystal frequency
