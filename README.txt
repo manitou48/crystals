@@ -70,7 +70,8 @@ and used micros() to measure frequency difference.  Results matched test
 with NTP host (sketch gpspps.ino), and Sparkfun GPS
   https://www.sparkfun.com/products/465
 We ran a similar sketch on the Maple, teensy, and DUE with frequency measurements
-matching the NTP tests.
+matching the NTP tests.  Similarly, for the parllax board we captured the 
+cycle counter on the GPS pps pulse.
 
 Here are similar experiments by Joris using the pps from a GPS module
 at various temperatures.
