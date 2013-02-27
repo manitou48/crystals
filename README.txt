@@ -12,7 +12,7 @@ hostdrift.c  NTP host program to poll MCU
 
 drift.ino    MCU program to send millis() to NTP host
 
-drift.spin   propeller program to send millis() to NTP host
+drift.spin   propeller program to send micros to NTP host
 
 gpspps.spin  propeller program to use GPS pps and cnt
 
