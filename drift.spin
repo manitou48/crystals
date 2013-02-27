@@ -27,8 +27,8 @@ PUB drift                       ' Method declaration
         host.byte[3] := pst.CharIn           ' Get value
         t1 := cnt
         ms0 := ||( t1-t0  ) / (clkfreq /1_000)                  ' ms
-		ms := ms + ms0
-		t0 := t1
+	ms := ms + ms0
+	t0 := t1
 
         pst.Char(ms.byte[0])
         pst.Char(ms.byte[1])
