@@ -1,4 +1,6 @@
-'  drift run with  hostdrift, send millis on recv 4 bytes
+'  drift run with  hostdrift, send micros on recv 4 bytes
+'   hostdrift -b 115200 -i /dev/ttyUSB0 -f 1000000
+
 CON
 
   _clkmode = xtal1 + pll16x
@@ -19,16 +21,16 @@ PUB drift                       ' Method declaration
     ms := 0
 
     repeat                            ' Endless loop prevents
-                                      ' program from ending.
 
+        repeat while 0 == pst.RxCount
+        t1 := cnt
         host.byte[0] := pst.CharIn           ' Get value
         host.byte[1] := pst.CharIn           ' Get value
         host.byte[2] := pst.CharIn           ' Get value
         host.byte[3] := pst.CharIn           ' Get value
-        t1 := cnt
-        ms0 := ||( t1-t0  ) / (clkfreq /1_000)                  ' ms
-	ms := ms + ms0
-	t0 := t1
+        ms0 := ||( t1-t0  ) / (clkfreq /1_000_000)  ' us
+        ms := ms + ms0
+        t0 := t1
 
         pst.Char(ms.byte[0])
         pst.Char(ms.byte[1])
