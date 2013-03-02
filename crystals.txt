@@ -15,10 +15,10 @@
   DUE         12MHz*x crystal   50ppm?   -4
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
   DUE RC      32KHz    RC        ?    -117701
-  maple       8MHz*9  crystal    ?        -5
+  maple       8MHz*9  crystal   20ppm     -5         ABM3B-8.000MHZ-B2-T
   teensy 3.0  16MHz*6 crystal   15ppm     -5
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
-  propeller   5Mhz*16 crystal   30ppm    -25         board2 (quickstart)
+  propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
 
   ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal i2c
   ds3132 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
