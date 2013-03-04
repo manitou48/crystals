@@ -9,7 +9,7 @@
   avr 328p    16Mhz resonator  0.5%      1258        nano gravitech 
   avr 328p    16Mhz resonator  0.5%     -3283        nano china 
   avr 328p    11Mhz crystal    30ppm    -23          ermicro 3.74v batteries
-     "        11Mhz crystal    30ppm    -16          5v
+     "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
   avr 128     14Mhz             ?       1738         no schematic, resonator?
 
   DUE         12MHz*x crystal   50ppm?   -4
