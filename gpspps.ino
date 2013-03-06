@@ -2,10 +2,6 @@
 //  5v,grnd,  pps to pin 3   INT 1  
 //    gpx tx-pin 4/rx  rx-pin 5   serial interface NOT used
 
-#include <TinyGPS.h>
-
-TinyGPS gps;
-
 volatile unsigned long us;
 volatile int tick=0;
 
