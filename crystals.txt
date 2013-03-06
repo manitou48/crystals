@@ -12,7 +12,7 @@
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
   avr 128     14Mhz             ?       1738         no schematic, resonator?
 
-  DUE         12MHz*x crystal   50ppm?   -4
+  DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
   DUE RC      32KHz    RC        ?    -117701
   maple       8MHz*9  crystal   20ppm     -5         ABM3B-8.000MHZ-B2-T
