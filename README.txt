@@ -1,7 +1,7 @@
     Crystals   https://github.com/manitou48/crystals
 
 Calibrating crystals, resonators, RC oscillators using NTP host.
-  Arduino UNO, nano, DUE, teensy 3, maple, propeller,  RTCs
+  Arduino UNO, nano, mega2560,  DUE, teensy 3, maple, propeller,  RTCs
 
 
 Files:

@@ -11,6 +11,7 @@
   avr 328p    11Mhz crystal    30ppm    -23          ermicro 3.74v batteries
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
   avr 128     14Mhz             ?       1738         no schematic, resonator?
+  avr 2560    16Mhz            0.5%      872         resonator cstce 16mov53-r0
 
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
