@@ -11,7 +11,7 @@
   avr 328p    11Mhz crystal    30ppm    -23          ermicro 3.74v batteries
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
   avr 128     14Mhz             ?       1738         no schematic, resonator?
-  avr 2560    16Mhz            0.5%      872         resonator cstce 16mov53-r0
+  avr 2560R3  16Mhz resonator  0.5%      872         cstce 16mov53-r0
 
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
@@ -61,6 +61,7 @@
     "      RC  8Mhz     RC     10%       4449         OSCCAL 0x88  5v
   avr 328p RC  8Mhz     RC     10%       7107         OSCCAL 0x8d uno 5v 8c 1344
  nano 328p RC  8Mhz     RC     10%       2128         OSCCAL 0xb7  5v
+  avr 2560 RC  8Mhz     RC     10%       -775         OSCCAL 0x80 R3 (fact 83)
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
 
   beagle      24MHz*x          30ppm     -5          ntp drift
