@@ -14,6 +14,8 @@ drift.ino    MCU program to send millis() to NTP host
 
 drift.spin   propeller program to send micros to NTP host
 
+Drift.java   java program to send micros to NTP host for ridgeosft robot
+
 gpspps.spin  propeller program to use GPS pps and cnt
 
 ds3231.ino   MCU program with RTC to send 1khz ticks to NTP host
@@ -46,6 +48,10 @@ A unit of OSCCAL varies by chip, but it's around 4000 ppm though non-linear.
 See avr328p datasheet figure 29-175, sections 8.6, Table 28-1,
 and www.atmel.com/Images/doc2555.pdf
 and  http://arduino.cc/en/Tutorial/ArduinoToBreadboard
+
+ridgesoft robot has ATMEGA128 with java VM.  No bill of materials so it is
+unclear if 14.7EDCSR oscillator is crystal or cermic osillator.  drift
+results (Drift.java) suggest an oscillator.
 
 The Maxim DS-series RTC's have a SQuare wave output pin that can be enabled.
 I connected the SQ output to an input pin counted ticks on FALLING edge
