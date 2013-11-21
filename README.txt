@@ -14,7 +14,7 @@ drift.ino    MCU program to send millis() to NTP host
 
 drift.spin   propeller program to send micros to NTP host
 
-Drift.java   java program to send micros to NTP host for ridgeosft robot
+Drift.java   java program to send millis to NTP host for ridgesoft robot
 
 gpspps.spin  propeller program to use GPS pps and cnt
 
