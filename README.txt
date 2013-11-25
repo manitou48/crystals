@@ -49,9 +49,11 @@ See avr328p datasheet figure 29-175, sections 8.6, Table 28-1,
 and www.atmel.com/Images/doc2555.pdf
 and  http://arduino.cc/en/Tutorial/ArduinoToBreadboard
 
-ridgesoft robot has ATMEGA128 with java VM.  No bill of materials so it is
-unclear if 14.7EDCSR oscillator is crystal or cermic osillator.  drift
-results (Drift.java) suggest an oscillator.
+ridgesoft robot has ATMEGA128 with java VM.  No bill of materials but
+we believe oscillator is 30-ppm 14.7456Mhz crytal.  The drift of 1736 ppm 
+suggests the Java VM is using a prescaler of 64 (doesn't evely divide
+frequency) so millis() error is 400/230000 or 1739 ppm.  A different software
+implementation could correct this error.
 
 The Maxim DS-series RTC's have a SQuare wave output pin that can be enabled.
 I connected the SQ output to an input pin counted ticks on FALLING edge
