@@ -53,7 +53,8 @@ ridgesoft robot has ATMEGA128 with java VM.  No bill of materials but
 we believe oscillator is 30-ppm 14.7456Mhz crytal.  The drift of 1736 ppm 
 suggests the Java VM is using a prescaler of 64 (doesn't evely divide
 frequency) so millis() error is 400/230000 or 1739 ppm.  A different software
-implementation could correct this error.
+implementation could correct this error. Using hostdrift -f 1001.73913
+results in drift error of only 2.3 ppm.
 
 The Maxim DS-series RTC's have a SQuare wave output pin that can be enabled.
 I connected the SQ output to an input pin counted ticks on FALLING edge
