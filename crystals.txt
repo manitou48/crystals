@@ -10,7 +10,7 @@
   avr 328p    16Mhz resonator  0.5%     -3283        nano china 
   avr 328p    11Mhz crystal    30ppm    -23          ermicro 3.74v batteries
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
-  avr 128     14Mhz crystal?   30ppm?   1736         14.7ECSR measured 2 ppm
+  avr 128     14Mhz crystal    30ppm    1736         14.7ECSR measured 2 ppm
   avr 2560R3  16Mhz resonator  0.5%      872         cstce 16mov53-r0
 
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
@@ -23,7 +23,7 @@
 
   ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal i2c
   ds3132 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
-  ds3134 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
+  ds3234 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
 
   maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
                "                           56        NO 22pf capacitors
@@ -70,3 +70,4 @@
   dell laptop                           -14          ntp drift
   macbook pro                           -18          ntp drift
 
+-- spec is frequency tolerance in ppm
