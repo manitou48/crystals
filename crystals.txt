@@ -22,7 +22,7 @@
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
 
   ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal i2c
-  ds3132 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
+  ds3231 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
   ds3234 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
 
   maple RTC   32khz   cyrstal   20ppm     -41        breadboard 512hz ticks
