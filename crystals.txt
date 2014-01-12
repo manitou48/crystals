@@ -1,7 +1,7 @@
   processor    oscillator      spec    measured(ppm)
   avr 328p    16Mhz resonator  0.5%     -1330        uno
   avr 328p    16MHz resonator  0.5%     -1422        breadboard 328p
-     "        16MHz crystal    50ppm    -42          breadboard 328p
+     "        16MHz crystal    50ppm     5           breadboard 328p
      "         8MHz crystal    50ppm     -2          breadboard 328p 5v 22pf
      "         8MHz crystal    50ppm     -16           "  3.3v 22pf
      "         8MHz crystal    50ppm     184           "  3.3v NO caps
@@ -11,7 +11,8 @@
   avr 328p    11Mhz crystal    30ppm    -23          ermicro 3.74v batteries
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
   avr 128     14Mhz crystal    30ppm    1736         14.7ECSR measured 2 ppm
-  avr 2560R3  16Mhz resonator  0.5%      872         cstce 16mov53-r0
+  avr 2560 R3 16Mhz resonator  0.5%      872         cstce 16mov53-r0
+  AT90        16Mhz crystal    15ppm      -1         teensy ++ 2.0
 
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
@@ -61,6 +62,7 @@
     "      RC  8Mhz     RC     10%      -7256         OSCCAL 0x88  3.3v
     "      RC  8Mhz     RC     10%       4449         OSCCAL 0x88  5v
   avr 328p RC  8Mhz     RC     10%       7107         OSCCAL 0x8d uno 5v 8c 1344
+  avr 328p RC  8Mhz     RC     10%      -4398         OSCCAL 0x46 5v (factory 4b)
  nano 328p RC  8Mhz     RC     10%       2128         OSCCAL 0xb7  5v
   avr 2560 RC  8Mhz     RC     10%       -775         OSCCAL 0x80 R3 (fact 83)
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
