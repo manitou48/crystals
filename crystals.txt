@@ -12,12 +12,13 @@
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
   avr 128     14Mhz crystal    30ppm    1736         14.7ECSR measured 2 ppm
   avr 2560 R3 16Mhz resonator  0.5%      872         cstce 16mov53-r0
-  AT90        16Mhz crystal    15ppm      -1         teensy ++ 2.0
+  AT90USB1286 16Mhz crystal    15ppm      -6         teensy ++ 2.0
 
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
   DUE RC      32KHz    RC        ?    -117701
-  maple       8MHz*9  crystal   20ppm     -5         ABM3B-8.000MHZ-B2-T
+  maple r5    8MHz*9  crystal   20ppm     -7         ABM3B-8.000MHZ-B2-T
+  maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16
   teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
@@ -54,7 +55,7 @@
   avr 168  RC  8Mhz     RC     10%      -2100         OSCCAL units 4000 ppm 3.8v
     "      RC  8Mhz     RC     10%      -6404          3.3v
     "      RC  8Mhz     RC     10%      10902          5.0v
-  avr 328  RC  8Mhz     RC     10%       2100         OSCCAL units 3000 ppm 5v
+  avr 328  RC  8Mhz     RC     10%       2108         OSCCAL units 3000 ppm 5v
   avr328p  RC  8Mhz     RC     10%       4061         OSCCAL units 4000 ppm 5v
     "      RC  8Mhz     RC     10%       -270          3.3v
   avr 328p RC  8Mhz     RC     10%      21721         OSCCAL units 5000 ppm 3.8v
@@ -73,4 +74,4 @@
   dell laptop                           -14          ntp drift
   macbook pro                           -18          ntp drift
 
--- spec is frequency tolerance in ppm
+-- spec is frequency tolerance in ppm @25C
