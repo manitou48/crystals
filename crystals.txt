@@ -25,7 +25,8 @@
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
 
-  ds1307 RTC  32khz   cyrstal  20ppm    23           external "watch" crystal i2c
+  ds1307 RTC  32khz   cyrstal  20ppm    23           "watch" crystal i2c
+  ds1307 RTC  32khz   cyrstal  20ppm    13           i2c
   ds3231 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
   ds3234 RTC  32khz   cyrstal   2ppm     1           TCXO SPI
 
@@ -71,7 +72,7 @@
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
 
   beagle      24MHz*x          30ppm     -5          ntp drift
-  raspberry   19MHz*x                   -16          ntp drift
+  raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
   dell desk                             -26          ntp drift
   dell laptop                           -14          ntp drift
   macbook pro                           -18          ntp drift
