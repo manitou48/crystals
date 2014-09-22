@@ -29,12 +29,12 @@ teensyRTC.pde teensy RTC experiments 32KHz crystal
 
 --------------  details --------------------
 
-A linux host running NTP on a good broadband network can disipline its
-time to within a few milliseconds and adjust its frequency (drift) to within
+A linux host running NTP on a good broadband network can adjust its
+time to within a few milliseconds and discipline its frequency (drift) to within
 one part-per-million(ppm).  I have a good network connection and a stratum 0
 CDMA time server as well.  A simple linux host program polls the mcu
 every 10 seconds or so and collects the millis() (or ticks for RTCs) from
-the MCU and can caculate the difference in frequency between the NTP
+the MCU and can calculate the difference in frequency between the NTP
 host and MCU/RTC.  The longer the data collection runs, the more accurate
 the frequency estimate (ppm).  Most devices I tested ran within their
 specs -- except for one bad 32KHz crystal (see crystals.txt).
@@ -51,7 +51,7 @@ and www.atmel.com/Images/doc2555.pdf
 and  http://arduino.cc/en/Tutorial/ArduinoToBreadboard
 
 ridgesoft robot has ATMEGA128 with java VM.  No bill of materials but
-we believe oscillator is 30-ppm 14.7456Mhz crytal.  The drift of 1736 ppm 
+we believe oscillator is 30-ppm 14.7456Mhz crystal.  The drift of 1736 ppm 
 suggests the Java VM is using a prescaler of 64 (doesn't evenly divide
 frequency) so millis() error is 400/230000 or 1739 ppm.  A different software
 implementation could correct this error. Using hostdrift -f 1001.73913
@@ -59,13 +59,13 @@ results in drift error of only 2.3 ppm.
 
 The Maxim DS-series RTC's have a SQuare wave output pin that can be enabled.
 I connected the SQ output to an input pin counted ticks on FALLING edge
-of pin interrupts.  The frequency of the squre wave was set at 1024 ticks
+of pin interrupts.  The frequency of the square wave was set at 1024 ticks
 per second (4096 for the DS1307).  The TCXO RTC's ran within 1 ppm of
 the NTP host.
 
  http://www.maximintegrated.com/datasheet/index.mvp/id/4627?ver=C&utm_expid=50713806-2
 
-I conncted a 32Khz crystal to Maple and to breadboard 328p (with and
+I conencted a 32Khz crystal to Maple and to breadboard 328p (with and
 without 22pf load capacitors). Frequency is affected by load capacitance,
 temperature, voltage and aging.
 
@@ -82,10 +82,15 @@ with NTP host (sketch gpspps.ino), and Sparkfun GPS
 We ran a similar sketch on the Maple, teensy, propeller,
 and DUE with frequency measurements matching the NTP tests.  
 
+Besides the cut of the crytals, frequency is affected by load capacitance,
+temperature, voltage, and aging.
 Here are similar experiments by Joris using the pps from a GPS module
 at various temperatures.
 
   http://jorisvr.nl/arduino_frequency.html
+
+and another temperature study
+  http://forum.pjrc.com/threads/24628-Interesting-Temperature-Data
 
 “One accurate measurement is worth a thousand expert opinions” 
   - Adm Grace Murray Hopper ( Dec 9 1906 to Jan 1 1992)
