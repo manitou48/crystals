@@ -10,11 +10,12 @@
   avr 328p    16Mhz resonator  0.5%     -3283        nano china 
   avr 328p    11Mhz crystal    30ppm    -23          ermicro 3.74v batteries
      "        11Mhz crystal    30ppm    -16          5v  CR11.0592MHZ
-  avr 128     14Mhz crystal    30ppm    1736         14.7ECSR measured 2 ppm
+  avr 128     14Mhz crystal    30ppm       2         14.7ECSR java 1736 ppm
   avr 2560 R3 16Mhz resonator  0.5%      872         cstce 16mov53-r0
-  AT90USB1286 16Mhz crystal    15ppm      -6         teensy++2.0 NDK NX3225SA-16
+  AT90USB1286 16Mhz crystal    15ppm      -6         teensy++2 NDK NX3225SA-16
+  atmega32u4  16Mhz crystal    15ppm       3         teensy2 NDK NX3225SA-16
+  atmega32u4  16Mhz crystal    30ppm?      2         littlebits
   avr 1284p   16Mhz crystal    30ppm     -26         foxslf-160-20 sbbb
-  atmega32u4  16Mhz crystal    30ppm?     2          littlebits
 
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
