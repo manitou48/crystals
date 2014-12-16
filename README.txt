@@ -1,4 +1,4 @@
-    CrystalS
+    **Crystals**
 
 
 Calibrating crystals, resonators, RC oscillators using NTP host.
