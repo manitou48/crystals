@@ -27,6 +27,7 @@
   teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16
   teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?    beta
   teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?    green
+  edison      19.2MHz*25 crystal  ?     -1603        millis()/rdtsc
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
 
@@ -82,7 +83,7 @@
   beagle      24MHz*x          30ppm     -5          ntp drift  CS325-24.000MABJ-UT
   raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
   littlebits  24Mhz*20                   -1          ntp drift cloud module
-  edison       500mhz                    -5          udp drift  yocto linux
+  edison      19.2*25mhz                 -5          udp drift  yocto linux
   dell desk                             -26          ntp drift
   dell laptop                           -14          ntp drift
   macbook pro                           -18          ntp drift
