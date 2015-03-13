@@ -61,6 +61,7 @@
                                             -3       22
                                            -22       28
                                            -26       30 pf
+  pyboard RTC  32khz   cyrstal  50ppm     170       onboard 9HT10-32.768KBZF-T
 
   avr 168  RC  8Mhz     RC     10%      -2100         OSCCAL units 4000 ppm 3.8v
     "      RC  8Mhz     RC     10%      -6404          3.3v
