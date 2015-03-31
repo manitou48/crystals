@@ -23,10 +23,10 @@
   DUE RC      32KHz    RC        ?    -117701
   maple r5    8MHz*9  crystal   20ppm     -7         ABM3B-8.000MHZ-B2-T
   maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
-  teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16
-  teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16
-  teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?    beta
-  teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?    green
+  teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
+  teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16 tunable
+  teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?   beta tunable
+  teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?   green tunable
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   edison      19.2MHz*26 crystal  ?       -3         millis()/rdtsc -1600
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
@@ -51,7 +51,7 @@
                 "     crystal   20ppm      11        "  NO caps 3.3v
   bad?        32khz   crystal   20ppm   -891019      breadboard 512hz ticks
                "                          1907      with no caps 
-  teensy RTC  32khz   cyrstal   20ppm               select internal capacitance
+  teensy RTC  32khz   cyrstal   20ppm    tunable    select internal capacitance
                                            226 ppm    0pf
                                            176        2pf
                                            137        4
