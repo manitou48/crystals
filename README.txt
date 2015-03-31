@@ -2,7 +2,7 @@
 
 
 Calibrating crystals, resonators, RC oscillators using NTP host.
-  Arduino UNO, nano, mega2560,  DUE, teensy 3, maple, propeller,  RTCs
+  Arduino UNO, nano, mega2560,  DUE, teensy 3/LC, maple, propeller,  RTCs
 
 
 Files:
@@ -71,18 +71,19 @@ temperature, voltage and aging.
 
 I connected a 32KHz crystal to teensy 3.0 (no capacitors required).
 It was accurate to within 4ppm using micros() on teensy and pulse-per-second
-interrupt from the RTC.  The ARM processor on the teensy can be configured
-with different load capacitance and has calibration registers to adjust
-the frequency (see rtc_calibrate());
+interrupt from the RTC.  The ARM processor RTC crystal on the teensy can be
+configured with different load capacitance and has calibration registers to
+adjust the frequency (see rtc_calibrate());  The MCU crystal capacitance
+can also be adjusted on the teensy ARM processors (OSC0_CS).
 
 As a second test, hooked up a GPS module's pps pulse to pin 3 on UNO
 and used micros() to measure frequency difference.  Results matched test
 with NTP host (sketch gpspps.ino), and Sparkfun GPS
   https://www.sparkfun.com/products/465
-We ran a similar sketch on the Maple, teensy, propeller,
+We ran a similar sketch on the Maple, teensy, propeller, pyboard,
 and DUE with frequency measurements matching the NTP tests.  
 
-Besides the cut of the crytals, frequency is affected by load capacitance,
+Besides the cut of the crystals, frequency is affected by load capacitance,
 temperature, voltage, and aging.
 Here are similar experiments by Joris using the pps from a GPS module
 at various temperatures.
