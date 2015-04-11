@@ -28,6 +28,7 @@
   teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?   green tunable
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
+  DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
   edison      19.2MHz*26 crystal  ?       -3         millis()/rdtsc -1600
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
