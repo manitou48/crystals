@@ -82,6 +82,8 @@
   mega32u4 RC  8Mhz     RC     10%      -1721         OSCCAL 0x70 (fact 73)
   attiny84 RC  8Mhz     RC     10%        111         OSCCAL 0x83 (fact 89)
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
+  pyboard LSI  32KHz    RC     30%     -52490         LSI calibrate for RTC
+  DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
 
   beagle      24MHz*x          30ppm     -5          ntp drift  CS325-24.000MABJ-UT
   raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
