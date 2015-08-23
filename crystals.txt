@@ -21,7 +21,8 @@
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
   DUE RC      32KHz    RC        ?    -117701
-  ZERO        32Khz*x crystal   20ppm   -556         MS1V-T1K 32.768kHz
+  ZERO        32Khz*x crystal   20ppm   -556         MS1V-T1K 32.768kHz micros() 48mhz
+  ZERO        32Khz   crystal   20ppm     18         MS1V-T1K 32.768kHz
   ZERO RC     32kz      RC      15%    -4989         ULPOSC32K
   maple r5    8MHz*9  crystal   20ppm     -7         ABM3B-8.000MHZ-B2-T
   maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
