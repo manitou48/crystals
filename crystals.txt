@@ -39,7 +39,9 @@
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
   mbed 1768   12MHz*6 crystal   50ppm     -2         ase-12-d-ct
   mbed K64F   25MHz*x crystal   50ppm     20         403I35D25M00000 @120mhz
+   K64F RTC   32KHz   crystal   20ppm    274         ABS07-32.768KHZ-T
   mbed F446RE  8MHz*x crystal   20ppm    -20         9SL8000012AFXHF0-SJ28 @180mhz
+   F446RE RTC 32KHz   crystal   20ppm     27         ABS25-32.768KHZ-6-T
 
   ds1307 RTC  32khz   cyrstal  20ppm    23           "watch" crystal i2c
   ds1307 RTC  32khz   cyrstal  20ppm    13           i2c
