@@ -33,11 +33,13 @@
   teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?   green tunable
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
+  pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
   DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
   edison      19.2MHz*26 crystal  ?       -3         millis()/rdtsc -1600
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
   mbed 1768   12MHz*6 crystal   50ppm     -2         ase-12-d-ct
+   1768 RTC   32khz   crystal   20ppm     20        FC-135 32.768KHZ test via WDT
   mbed K64F   25MHz*x crystal   50ppm     20         403I35D25M00000 @120mhz
    K64F RTC   32KHz   crystal   20ppm    274         ABS07-32.768KHZ-T
   mbed F446RE  8MHz*x crystal   20ppm    -20         9SL8000012AFXHF0-SJ28 @180mhz
@@ -72,8 +74,6 @@
                                             -3       22
                                            -22       28
                                            -26       30 pf
-  pyboard RTC  32khz   cyrstal  50ppm     170       onboard 9HT10-32.768KBZF-T
-  mbed RTC     32khz   crystal  20ppm      20       FC-135 32.768KHZ test via WDT
 
   avr 168  RC  8Mhz     RC     10%      -2100         OSCCAL units 4000 ppm 3.8v
     "      RC  8Mhz     RC     10%      -6404          3.3v
