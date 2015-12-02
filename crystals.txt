@@ -43,6 +43,8 @@
   mbed K64F   25MHz*x crystal   50ppm     20         403I35D25M00000 @120mhz
    K64F RTC   32KHz   crystal   20ppm    274         ABS07-32.768KHZ-T
   mbed F446RE  8MHz*x crystal   20ppm    -20         9SL8000012AFXHF0-SJ28 @180mhz
+  ESP8266     26MHz   crystal   ?        -25         ? sparkfun dev board
+
    F446RE RTC 32KHz   crystal   20ppm     27         ABS25-32.768KHZ-6-T
 
   ds1307 RTC  32khz   cyrstal  20ppm    23           "watch" crystal i2c
@@ -95,7 +97,7 @@
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
   pyboard LSI  32KHz    RC     30%     -52490         LSI calibrate for RTC
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
-  mbed    IRC  4Mhz     RC      1%      -2979         test via WDT
+  mbed    IRC  4Mhz     RC      1%      -2979         test via WDT  LPC1768
 
   beagle      24MHz*x          30ppm     -5          ntp drift  CS325-24.000MABJ-UT
   raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
