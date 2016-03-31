@@ -31,6 +31,7 @@
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
   teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16 tunable
   teensy 3.2  16MHz*6 crystal   18ppm    -21         tsx-322516?
+  teensy 3.2  16MHz*6 crystal   18ppm    -22         tsx-322516?
   teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?   green tunable
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
