@@ -95,6 +95,7 @@
   avr 328p RC  8Mhz     RC     10%       7107         OSCCAL 0x8d uno 5v 8c 1344
   avr 328p RC  8Mhz     RC     10%      -4398         OSCCAL 0x46 5v (factory 4b)
  nano 328p RC  8Mhz     RC     10%       2128         OSCCAL 0xb7  5v
+  avr 328p RC  8Mhz     RC     10%       2037         OSCCAL 0xa3 pro mini 3.3v
   avr 2560 RC  8Mhz     RC     10%       -775         OSCCAL 0x80 R3 (fact 83)
   avr1284p RC  8Mhz     RC     10%       -315         OSCCAL 0xA2 (fact A4)
   mega32u4 RC  8Mhz     RC     10%      -1721         OSCCAL 0x70 (fact 73)
