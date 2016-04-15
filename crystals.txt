@@ -105,6 +105,9 @@
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
   mbed    IRC  4Mhz     RC      1%      -2979         test via WDT  LPC1768
 
+  avr328pWDT  128KHz    RC      ?      -20606         WDT 16ms UNO
+  avr328pWDT  128KHz    RC      ?      -25453         WDT 16ms 3.3v pro mini
+
   beagle      24MHz*x          30ppm     -5          ntp drift  CS325-24.000MABJ-UT
   raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
   littlebits  24Mhz*20                   -1          ntp drift cloud module
