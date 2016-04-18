@@ -41,7 +41,7 @@
   edison      19.2MHz*26 crystal  ?       -3         millis()/rdtsc -1600
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
-  mbed 1768   12MHz*6 crystal   50ppm     -2         ase-12-d-ct
+  mbed 1768   12MHz*6 crystal   50ppm     -2         ase-12-d-ct  LPC1768
    1768 RTC   32khz   crystal   20ppm     20        FC-135 32.768KHZ test via WDT
   mbed K64F   25MHz*x crystal   50ppm     20         403I35D25M00000 @120mhz
    K64F RTC   32KHz   crystal   20ppm    274         ABS07-32.768KHZ-T
@@ -103,7 +103,10 @@
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
   pyboard LSI  32KHz    RC     30%     -52490         LSI calibrate for RTC
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
+  teensy 3.2   1KHz     RC      ?      125483         LPTMR LPO
+  teensy LC2   1KHz     RC      ?     -264148         LPTMR LPO
   mbed    IRC  4Mhz     RC      1%      -2979         test via WDT  LPC1768
+   K64F   IRC  1KHz     RC      ?     -336000         LPTMR LP0 
 
   avr328pWDT  128KHz    RC      ?      -20606         WDT 16ms UNO
   avr328pWDT  128KHz    RC      ?      -25453         WDT 16ms 3.3v pro mini
