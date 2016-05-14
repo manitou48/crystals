@@ -50,7 +50,8 @@
   ESP8266     26MHz   crystal   ?        -25         ? sparkfun dev board
   CC3200      40MHz   crystal   10ppm      1         Q24FA20H00396
    slow clock 32KHz   crystal   20ppm    151         Abracon ABS07-32.768KHZ-T
-
+  STM32L476   16MHz   crystal   10ppm    -13         Seiko Epson FA-20H 
+       RTC    32KHz   crystal   20ppm    TBD         ABS05
 
   ds1307 RTC  32khz   cyrstal  20ppm    23           "watch" crystal i2c
   ds1307 RTC  32khz   cyrstal  20ppm    13           i2c
