@@ -103,6 +103,7 @@
   attiny84 RC  8Mhz     RC     10%        111         OSCCAL 0x83 (fact 89)
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
   pyboard LSI  32KHz    RC     30%     -52490         LSI calibrate for RTC
+  STM32L476    32KHz    RC      6%     -15336         LSI driving RTC
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
   teensy 3.2   1KHz     RC     10%       3182         LPTMR LPO
   teensy LC    1KHz     RC     10%     -18548         LPTMR LPO
