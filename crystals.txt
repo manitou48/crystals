@@ -47,6 +47,8 @@
    K64F RTC   32KHz   crystal   20ppm    274         ABS07-32.768KHZ-T
   mbed F446RE  8MHz*x crystal   20ppm    -20         9SL8000012AFXHF0-SJ28 @180mhz
    F446RE RTC 32KHz   crystal   20ppm     27         ABS25-32.768KHZ-6-T
+  mbed L476    4MHz    RC               -569         MSI oscillator (no MCU crystal)
+      RTC     32KHz   crystal   20ppm      9         NX3215SA  EXS00A-MU00525
   ESP8266     26MHz   crystal   ?        -25         ? sparkfun dev board
   CC3200      40MHz   crystal   10ppm      1         Q24FA20H00396
    slow clock 32KHz   crystal   20ppm    151         Abracon ABS07-32.768KHZ-T
