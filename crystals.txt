@@ -35,6 +35,10 @@
   teensy 3.2  16MHz*6 crystal   18ppm    -22         tsx-322516?
   teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?   green tunable
+  teensy K66  16MHz   crystal    8ppm     20?        tsx-322516? proto6
+    RTC       32KHz   crystal   -1ppm      ?           ? 
+  teensy K66  16MHz   crystal   -6ppm     20?        tsx-322516? beta
+    RTC       32KHz   crystal   -1ppm      ?           ? 
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
   DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
