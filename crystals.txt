@@ -117,7 +117,7 @@
   teensy LC    1KHz     RC     10%     -18548         LPTMR LPO
   teensy K66   1KHz     RC     10%      -3932         LPTMR LPO proto
   teensy K66   1KHz     RC     10%      -3512         LPTMR LPO beta
-  teensy K64   1KHz     RC     10%         52         LPTMR LPO beta
+  teensy K64   1KHz     RC     10%        117         LPTMR LPO beta
   mbed    IRC  4Mhz     RC      1%      -2979         test via WDT  LPC1768
    K64F   IRC  1KHz     RC     10%      -5000         LPTMR LP0 
   F446RE  IRC  32KHz    RC     46%         34         RTC with LSI
