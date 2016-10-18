@@ -31,17 +31,17 @@
   maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
   teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16 tunable
-  teensy 3.2  16MHz*6 crystal   18ppm    -21         tsx-322516?
-  teensy 3.2  16MHz*6 crystal   18ppm    -22         tsx-322516?
-  teensy LC   16MHz*6 crystal   18ppm     13         tsx-322516?   beta tunable
-  teensy LC   16MHz*6 crystal   18ppm     20         tsx-322516?   green tunable
-  teensy K66  16MHz   crystal   18ppm      8         tsx-322516? proto6
+  teensy 3.2  16MHz*6 crystal   18ppm    -21         EPSON TSX-3225
+  teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225
+  teensy LC   16MHz*6 crystal   18ppm     13         EPSON TSX-3225   beta tunable
+  teensy LC   16MHz*6 crystal   18ppm     20         EPSON TSX-3225   green tunable
+  teensy K66  16MHz   crystal   18ppm      8         EPSON TSX-3225 proto6
     RTC       32KHz   crystal    ?ppm      0           ? 
-  teensy K66  16MHz   crystal   18ppm     -6         tsx-322516? beta
+  teensy K66  16MHz   crystal   18ppm     -6         EPSON TSX-3225 beta
     RTC       32KHz   crystal    ?ppm     -6           ? 
-  teensy K64  16MHz   crystal   18ppm    -19         tsx-322516? beta
+  teensy K64  16MHz   crystal   18ppm    -19         EPSON TSX-3225 beta
     RTC       32KHz   crystal    ?ppm    -11           ? 
-  teensy K64  16MHz   crystal   18ppm    -18         tsx-322516? ks
+  teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 ks
     RTC       32KHz   crystal    ?ppm     -9           ? 
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
