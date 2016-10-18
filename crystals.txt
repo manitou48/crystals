@@ -116,6 +116,7 @@
   STM32L476    32KHz    RC      6%     -15336         LSI driving RTC
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
   teensy 3.2   1KHz     RC     10%       3182         LPTMR LPO
+  teensy LC    1KHz     RC     10%       6421         LPTMR LPO  beta
   teensy LC    1KHz     RC     10%     -18548         LPTMR LPO
   teensy K66   1KHz     RC     10%      -3932         LPTMR LPO proto
   teensy K66   1KHz     RC     10%      -3512         LPTMR LPO beta
