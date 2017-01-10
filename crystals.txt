@@ -63,6 +63,7 @@
   STM32L476   16MHz   crystal   10ppm    -13         Seiko Epson FA-20H  dragonfly
        RTC    32KHz   crystal   20ppm     14         ABS05
 
+  STM32L433   32Khz   crystal   20ppm     13         ST2012SB32768Z0HPWBB butterfly
   ds1307 RTC  32khz   cyrstal  20ppm    23           "watch" crystal i2c
   ds1307 RTC  32khz   cyrstal  20ppm    13           i2c
   ds3231 RTC  32khz   cyrstal   2ppm     1           chronodot TCXO i2c
