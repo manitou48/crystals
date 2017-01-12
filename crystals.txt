@@ -12,7 +12,7 @@
      "        11Mhz crystal    30ppm    -19          " 5v  CR11.0592MHZ
      "        11Mhz crystal    30ppm    -20          " 3.3v
   avr 328p     8Mhz resonator  0.5%     -4330        pro mini 3.3v
-  avr 328p    12Mhz resonator  0.1%     -3729        pro trinket 3.3v
+  avr 328p    12Mhz resonator  0.5%     -3729        pro trinket 3.3v
   avr 128     14Mhz crystal    30ppm       2         14.7ECSR java 1736 ppm
   avr 2560 R3 16Mhz resonator  0.5%      872         cstce 16mov53-r0
   AT90USB1286 16Mhz crystal    15ppm      -6         teensy++2 NDK NX3225SA-16
