@@ -36,14 +36,18 @@
   teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225
   teensy LC   16MHz*6 crystal   18ppm     13         EPSON TSX-3225   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         EPSON TSX-3225   green tunable
-  teensy K66  16MHz   crystal   18ppm      8         EPSON TSX-3225 proto6
-    RTC       32KHz   crystal    ?ppm      0           ? 
+  teensy K66  16MHz   crystal   18ppm     -8         EPSON TSX-3225 proto6
+    RTC       32KHz   crystal    ?ppm     -9           ? 
   teensy K66  16MHz   crystal   18ppm     -6         EPSON TSX-3225 beta
-    RTC       32KHz   crystal    ?ppm     -6           ? 
+    RTC       32KHz   crystal    ?ppm     -7           ? 
+  teensy K66  16MHz   crystal   18ppm     -7         EPSON TSX-3225 
+    RTC       32KHz   crystal    ?ppm    -12           ? 
   teensy K64  16MHz   crystal   18ppm    -19         EPSON TSX-3225 beta
     RTC       32KHz   crystal    ?ppm    -11           ? 
   teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 ks
     RTC       32KHz   crystal    ?ppm     -9           ? 
+  teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 
+    RTC       32KHz   crystal    ?ppm     -8           ? 
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
   DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
