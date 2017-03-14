@@ -125,6 +125,7 @@
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale
   pyboard LSI  32KHz    RC     30%     -52490         LSI calibrate for RTC
   STM32L476    32KHz    RC      6%     -15336         LSI driving RTC
+  STM32L433    32KHz    RC      6%     -10898         LSI driving RTC
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
   teensy 3.2   1KHz     RC     10%       3182         LPTMR LPO
   teensy 3.2   1KHz     RC     10%      18693         LPTMR LPO w/ps
