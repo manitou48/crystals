@@ -33,7 +33,8 @@
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
   teensy 3.1  16MHz*6 crystal   15ppm    -18         NDK NX3225SA-16 tunable
   teensy 3.2  16MHz*6 crystal   18ppm    -21         EPSON TSX-3225
-  teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225
+  teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225 ps
+  teensy 3.2  16MHz*6 crystal   18ppm    -15         EPSON TSX-3225 aa
   teensy LC   16MHz*6 crystal   18ppm     13         EPSON TSX-3225   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         EPSON TSX-3225   green tunable
   teensy K66  16MHz   crystal   18ppm     -8         EPSON TSX-3225 proto6
@@ -129,6 +130,7 @@
   DISCOVERY    32KHz    RC     30%      -2260         LSI calibrate for RTC
   teensy 3.2   1KHz     RC     10%       3182         LPTMR LPO
   teensy 3.2   1KHz     RC     10%      18693         LPTMR LPO w/ps
+  teensy 3.2   1KHz     RC     10%       -264         LPTMR LPO w/aa
   teensy LC    1KHz     RC     10%       6421         LPTMR LPO  beta
   teensy LC    1KHz     RC     10%     -18548         LPTMR LPO
   teensy K66   1KHz     RC     10%      -3932         LPTMR LPO proto
