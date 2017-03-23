@@ -68,6 +68,7 @@
   mbed L476RG  4MHz    RC       0.25%   -578         9SL8000012AFXHF0-SJ28
       RTC     32KHz   crystal   20ppm     -7         ABS25-32.768KHZ-6-T
   ESP8266     26MHz   crystal   ?        -25         ? sparkfun dev board
+  ESP32       26MHz   crystal   ?         11         ? sparkfun dev board
   CC3200      40MHz   crystal   10ppm      1         Q24FA20H00396
    slow clock 32KHz   crystal   20ppm    151         Abracon ABS07-32.768KHZ-T
   STM32L476   16MHz   crystal   10ppm    -13         Seiko Epson FA-20H  dragonfly
