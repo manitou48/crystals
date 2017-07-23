@@ -21,6 +21,8 @@
   avr 1284p   16Mhz crystal    30ppm     -26         foxslf-160-20 sbbb
 
   nRF51822    16MHz RC          1%       333         microbit           
+  nRF51822    16MHz RC          1%       331         microbit           
+  nRF51822    16MHz RC          1%       305         BLE Nano ? 32khz crystal
   DUE         12MHz*x crystal   30ppm    -4          12MHz KX-7 20pf smd
   DUE RTC     32Khz   crystal   20ppm    -3          check using RTT or RTC
   DUE RC      32KHz    RC       11%   -117701
