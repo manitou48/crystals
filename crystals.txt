@@ -52,7 +52,7 @@
     RTC       32KHz   crystal    ?ppm     -9           ? 
   teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 
     RTC       32KHz   crystal    ?ppm     -8           ? 
-  WICED        8MHz     ?         ?        8         STM32F205
+  WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
