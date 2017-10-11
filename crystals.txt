@@ -54,6 +54,7 @@
     RTC       32KHz   crystal    ?ppm     -8           ? 
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
+  photon      26MHz     ?         ?        9         STM32F205
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
   DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
