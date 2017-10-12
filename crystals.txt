@@ -55,6 +55,7 @@
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
   photon      26MHz     ?         ?        9         STM32F205
+    RTC       32KHz     ?         ?       60           LSEON
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
   DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
@@ -148,6 +149,7 @@
   teensy K64   1KHz     RC     10%      -6333         LPTMR LPO ks
   teensy K64   1KHz     RC     10%      11446         LPTMR LPO
   WICED        32KHz    RC     47%     -69178         RTC with LSI
+  photon       32KHz    RC     47%     -45091         RTC with LSI
   mbed    IRC  4Mhz     RC      1%      -2979         test via WDT  LPC1768
    K64F   IRC  1KHz     RC     10%      -5000         LPTMR LP0 
    F446RE IRC  32KHz    RC     46%         34         RTC with LSI
