@@ -18,6 +18,9 @@
   AT90USB1286 16Mhz crystal    15ppm      -6         teensy++2 NDK NX3225SA-16
   atmega32u4  16Mhz crystal    15ppm       3         teensy2 NDK NX3225SA-16
   atmega32u4  16Mhz crystal    30ppm       2         littlebits TXC 7B
+  atmega32u4   8Mhz resonator  0.5%      -51         playground CSTCE8M00G55-R0
+  atmega32u4   8Mhz resonator  0.5%    -1751         feather CSTCE8M00G55-R0
+  atmega32u4   8Mhz resonator  0.5%    -2484         feather CSTCE8M00G55-R0
   avr 1284p   16Mhz crystal    30ppm     -26         foxslf-160-20 sbbb
 
   nRF51822    16MHz RC          1%       333         microbit           
