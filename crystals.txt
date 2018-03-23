@@ -161,6 +161,7 @@
 
   avr328pWDT  128KHz    RC      ?      -20606         WDT 16ms UNO
   avr328pWDT  128KHz    RC      ?      -25453         WDT 16ms 3.3v pro mini
+  atmega32u4  128KHz    RC      ?      -24620         WDT 16ms Teensy 2 
 
   beagle      24MHz*x          30ppm     -5          ntp drift  CS325-24.000MABJ-UT
   raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
