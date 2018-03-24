@@ -132,7 +132,7 @@
   avr 328p RC  8Mhz     RC     10%       2037         OSCCAL 0xa3 pro mini 3.3v
   avr 2560 RC  8Mhz     RC     10%       -775         OSCCAL 0x80 R3 (fact 83)
   avr1284p RC  8Mhz     RC     10%       -315         OSCCAL 0xA2 (fact A4)
-  mega32u4 RC  8Mhz     RC     10%      -1721         OSCCAL 0x70 (fact 73)
+  mega32u4 RC  8Mhz     RC     10%      -1721         OSCCAL 0x70 (fact 73) littlebits
   attiny84 RC  8Mhz     RC     10%        111         OSCCAL 0x83 (fact 89)
   maple LSI    40KHz    RC     50%     -19659         calibrate with prescale RET6
   maple LSI    40KHz    RC     50%       5475         calibrate with prescale REV3
@@ -159,13 +159,14 @@
    STM32L476   32KHz    RC      6%     -24608         RTC with LSI mbed
    F469NI IRC  32KHz    RC     46%         -2         RTC with LSI
 
-  avr328pWDT  128KHz    RC      ?      -20606         WDT 16ms UNO
-  avr328pWDT  128KHz    RC      ?      -25453         WDT 16ms 3.3v pro mini
-  atmega32u4  128KHz    RC      ?      -24620         WDT 16ms Teensy 2 
-  atmega32u4  128KHz    RC      ?      -15534         WDT 16ms littlebits 
-  atmega32u4  128KHz    RC      ?       12158         WDT 16ms playground 3v3 8mhz
-  atmega32u4  128KHz    RC      ?       24371         WDT 16ms feather 3v3 8mhz
-  atmega32u4  128KHz    RC      ?       11504         WDT 16ms feather 3v3 8mhz
+  avr328pWDT  128KHz    RC     10%?    -20606         WDT 16ms UNO
+  avr328pWDT  128KHz    RC     10%?    -25453         WDT 16ms 3.3v pro mini
+  avr328pWDT  128KHz    RC     10%?    -66262         WDT 16ms 3.3v pro trinket
+  atmega32u4  128KHz    RC     10%?    -24620         WDT 16ms Teensy 2 
+  atmega32u4  128KHz    RC     10%?    -81229         WDT 16ms littlebits 
+  atmega32u4  128KHz    RC     10%?     78180         WDT 16ms playground 3v3 8mhz
+  atmega32u4  128KHz    RC     10%?    -41400         WDT 16ms feather 3v3 8mhz
+  atmega32u4  128KHz    RC     10%?    -53439         WDT 16ms feather 3v3 8mhz
 
   beagle      24MHz*x          30ppm     -5          ntp drift  CS325-24.000MABJ-UT
   raspberry   19.2MHz*x                 -16          ntp drift   XGH 19.200A76
