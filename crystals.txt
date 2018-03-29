@@ -17,6 +17,7 @@
   avr 2560 R3 16Mhz resonator  0.5%      872         cstce 16mov53-r0
   AT90USB1286 16Mhz crystal    15ppm      -6         teensy++2 NDK NX3225SA-16
   atmega32u4  16Mhz crystal    15ppm       3         teensy2 NDK NX3225SA-16
+  atmega32u4  16Mhz crystal    30ppm      -9         leonardo TXC 7B
   atmega32u4  16Mhz crystal    30ppm       2         littlebits TXC 7B
   atmega32u4   8Mhz resonator  0.5%      -51         playground CSTCE8M00G55-R0
   atmega32u4   8Mhz resonator  0.5%    -1751         feather CSTCE8M00G55-R0
@@ -164,6 +165,7 @@
   avr328pWDT  128KHz    RC     10%?    -25453         WDT 16ms 3.3v pro mini
   avr328pWDT  128KHz    RC     10%?    -66262         WDT 16ms 3.3v pro trinket
   atmega32u4  128KHz    RC     10%?    -24620         WDT 16ms Teensy 2 
+  atmega32u4  128KHz    RC     10%?     71764         WDT 16ms leonardo 
   atmega32u4  128KHz    RC     10%?    -81229         WDT 16ms littlebits 
   atmega32u4  128KHz    RC     10%?     78180         WDT 16ms playground 3v3 8mhz
   atmega32u4  128KHz    RC     10%?    -41400         WDT 16ms feather 3v3 8mhz
