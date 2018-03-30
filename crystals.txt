@@ -133,6 +133,7 @@
   avr 328p RC  8Mhz     RC     10%       2037         OSCCAL 0xa3 pro mini 3.3v
   avr 2560 RC  8Mhz     RC     10%       -775         OSCCAL 0x80 R3 (fact 83)
   avr1284p RC  8Mhz     RC     10%       -315         OSCCAL 0xA2 (fact A4)
+  mega32u4 RC  8Mhz     RC     10%        679         OSCCAL 0x53 (fact 55) leonardo
   mega32u4 RC  8Mhz     RC     10%      -1721         OSCCAL 0x70 (fact 73) littlebits
   mega32u4 RC  8Mhz     RC     10%        574         OSCCAL 0x71 feather 3.3v
   attiny84 RC  8Mhz     RC     10%        111         OSCCAL 0x83 (fact 89)
