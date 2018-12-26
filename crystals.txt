@@ -79,8 +79,8 @@
       RTC     32KHz   crystal   20ppm      9         NX3215SA  EXS00A-MU00525
   mbed L476RG  4MHz    RC       0.25%   -578         9SL8000012AFXHF0-SJ28
       RTC     32KHz   crystal   20ppm     -7         ABS25-32.768KHZ-6-T
-  mbed M7     24MHz   crystal   30ppm     14         MXRT1050-EVK TXC 7V24000002
-      RTC     32KHz   crystal   20ppm     54         epson FC-135 32.7680KA-AG3
+  mbed M7     24MHz   crystal   30ppm    -14         MXRT1050-EVK TXC 7V24000002
+      RTC     32KHz   crystal   20ppm    -54         epson FC-135 32.7680KA-AG3
   mbed M7     24MHz   crystal   30ppm     -6         MXRT1050-EVKB TXC 7V24000002
       RTC     32KHz   crystal   20ppm    -52         epson FC-135 32.7680KA-AG3
   ESP8266     26MHz   crystal   ?        -25         ? sparkfun dev board
