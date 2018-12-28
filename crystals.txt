@@ -36,6 +36,7 @@
   ZERO RC     32khz     RC       1.5%  -2953         OSC32K NVM calibrated
   ZERO RC     8MHz      RC      0.75%   4167         OSC8M
   CPX  RC     48MHz     RC       1.5%     25         OSC32K circuitplayground express NVM calibrated
+  Ada M4      32khz   crystal   20ppm   -138         NX3215SA-32.768K
   maple r5    8MHz*9  crystal   20ppm     -7         ABM3B-8.000MHZ-B2-T
   maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
