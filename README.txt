@@ -93,5 +93,8 @@ at various temperatures.
 and another temperature study
   http://forum.pjrc.com/threads/24628-Interesting-Temperature-Data
 
+crystal frequency vs temperature
+  https://ieee-uffc.org/frequency-control/educational-resources/introduction-to-quartz-frequency-standards-by-john-r-vig/introduction-to-quartz-frequency-standards-static-frequency-versus-temperature-stability/
+
 “One accurate measurement is worth a thousand expert opinions” 
   - Adm Grace Murray Hopper ( Dec 9 1906 to Jan 1 1992)
