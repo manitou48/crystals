@@ -38,7 +38,7 @@
   CPX  RC     48MHz     RC       1.5%     25         OSC32K circuitplayground express NVM calibrated
   Ada M4      32khz   crystal   20ppm   -138         NX3215SA-32.768K SAMD51
   Ada M4 RTC  32khz   crystal   20ppm      5         NX3215SA-32.768K SAMD51
-  Ada M4 RC   32khz     RC       2%    11500          SAMD51
+  Ada M4 RC   32khz     RC       2%    11574          SAMD51
   maple r5    8MHz*9  crystal   20ppm     -7         ABM3B-8.000MHZ-B2-T
   maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
@@ -60,6 +60,10 @@
     RTC       32KHz   crystal   10ppm     -9         CFS-20632768EZFB 
   teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 
     RTC       32KHz   crystal   10ppm     -8         CFS-20632768EZFB 
+  T4 beta     24MHz   crystal     ?       -3         ? NXP 1052
+    RTC       32KHz   crystal   10ppm     -5         CFS-20632768EZFB ?
+  T4 beta2    24MHz   crystal     ?       -4         ? NXP 1052
+    RTC       32KHz   crystal   10ppm     -4         CFS-20632768EZFB ?
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
   photon      26MHz     ?         ?        9         STM32F205
