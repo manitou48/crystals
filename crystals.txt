@@ -51,6 +51,7 @@
   teensy 3.2  16MHz*6 crystal   18ppm    -21         EPSON TSX-3225
   teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225 ps
   teensy 3.2  16MHz*6 crystal   18ppm    -15         EPSON TSX-3225 aa
+  teensy 3.2  16MHz*6 crystal   18ppm    -20         EPSON TSX-3225 8/12/19
   teensy LC   16MHz*6 crystal   18ppm     13         EPSON TSX-3225   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         EPSON TSX-3225   green tunable
   teensy K66  16MHz   crystal   18ppm     -8         EPSON TSX-3225 proto6
@@ -71,8 +72,12 @@
     RTC       32KHz   crystal   10ppm     -4         CFS-20632768EZFB ?
   T4 beta2    24MHz   crystal     ?        1         ? NXP 1062
     RTC       32KHz   crystal   10ppm     -6         CFS-20632768EZFB ?
-  T4 beta2-2  24MHz   crystal     ?      -11         ? NXP 1062
+  T4 beta2-2  24MHz   crystal     ?      -11         ? NXP 1062  T4B2R
     RTC       32KHz   crystal   10ppm     10         CFS-20632768EZFB ?
+  T4-1        24MHz   crystal     ?      -11         ? NXP 1062  T4-1
+    RTC       32KHz   crystal   10ppm     -3         CFS-20632768EZFB ?
+  T4-2        24MHz   crystal     ?      -10         ? NXP 1062  T4-2
+    RTC       32KHz   crystal   10ppm     -5         CFS-20632768EZFB ?
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
   photon      26MHz     ?         ?        9         STM32F205
