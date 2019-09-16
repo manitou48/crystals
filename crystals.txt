@@ -52,6 +52,7 @@
   teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225 ps
   teensy 3.2  16MHz*6 crystal   18ppm    -15         EPSON TSX-3225 aa
   teensy 3.2  16MHz*6 crystal   18ppm    -20         EPSON TSX-3225 8/12/19
+  teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225 9/16/19 feather
   teensy LC   16MHz*6 crystal   18ppm     13         EPSON TSX-3225   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         EPSON TSX-3225   green tunable
   teensy K66  16MHz   crystal   18ppm     -8         EPSON TSX-3225 proto6
