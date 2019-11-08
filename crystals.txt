@@ -22,6 +22,7 @@
   atmega32u4   8Mhz resonator  0.5%      -51         playground CSTCE8M00G55-R0
   atmega32u4   8Mhz resonator  0.5%    -1751         feather CSTCE8M00G55-R0
   atmega32u4   8Mhz resonator  0.5%    -2484         feather CSTCE8M00G55-R0
+  atmega32u4   8Mhz resonator  0.5%     -353         feather CSTCE8M00G55-R0
   avr 1284p   16Mhz crystal    30ppm     -26         foxslf-160-20 sbbb
 
   nRF51822    16MHz RC          1%       333         microbit           
@@ -44,6 +45,8 @@
   Ada M4      32khz   crystal   20ppm   -138         NX3215SA-32.768K SAMD51
   Ada M4 RTC  32khz   crystal   20ppm      5         NX3215SA-32.768K SAMD51
   Ada M4 RC   32khz     RC       2%    11574          SAMD51
+  Ada M4      32khz   crystal   20ppm  -1349         NX3215SA-32.768K SAMD51
+  Ada M4 RTC  32khz   crystal   20ppm     12         NX3215SA-32.768K SAMD51
   maple r5    8MHz*9  crystal   20ppm     -7         ABM3B-8.000MHZ-B2-T
   maple r5    8MHz*9  crystal   20ppm     -5             "   RET6
   teensy 3.0  16MHz*6 crystal   15ppm     -5         NDK NX3225SA-16 tunable
@@ -51,7 +54,7 @@
   teensy 3.2  16MHz*6 crystal   18ppm    -21         EPSON TSX-3225
   teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225 ps
   teensy 3.2  16MHz*6 crystal   18ppm    -15         EPSON TSX-3225 aa
-  teensy 3.2  16MHz*6 crystal   18ppm    -20         EPSON TSX-3225 8/12/19
+  teensy 3.2  16MHz*6 crystal   18ppm    -20         EPSON TSX-3225 8/12/19 female
   teensy 3.2  16MHz*6 crystal   18ppm    -22         EPSON TSX-3225 9/16/19 feather
   teensy LC   16MHz*6 crystal   18ppm     13         EPSON TSX-3225   beta tunable
   teensy LC   16MHz*6 crystal   18ppm     20         EPSON TSX-3225   green tunable
@@ -59,13 +62,13 @@
     RTC       32KHz   crystal   10ppm     -9         CFS-20632768EZFB 
   teensy K66  16MHz   crystal   18ppm     -6         EPSON TSX-3225 beta
     RTC       32KHz   crystal   10ppm     -7         CFS-20632768EZFB 
-  teensy K66  16MHz   crystal   18ppm     -7         EPSON TSX-3225 
+  teensy K66  16MHz   crystal   18ppm     -7         EPSON TSX-3225 no pins
     RTC       32KHz   crystal   10ppm    -12         CFS-20632768EZFB 
   teensy K64  16MHz   crystal   18ppm    -19         EPSON TSX-3225 beta
     RTC       32KHz   crystal   10ppm    -11         CFS-20632768EZFB 
   teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 ks
     RTC       32KHz   crystal   10ppm     -9         CFS-20632768EZFB 
-  teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 
+  teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 no pins
     RTC       32KHz   crystal   10ppm     -8         CFS-20632768EZFB 
   T4 beta1    24MHz   crystal     ?       -3         ? NXP 1052
     RTC       32KHz   crystal   10ppm     -5         CFS-20632768EZFB ?
@@ -86,6 +89,8 @@
   pyboard     8MHz*21 crystal   30ppm     33         TXC 7A-8.000MAAE-T 
   pyboard RTC 32khz   cyrstal   50ppm    170         onboard 9HT10-32.768KBZF-T
   DISCOVERY   8MHz*21 crystal   20ppm     75         HC-49S-C20QSA-8.000MHZ
+  STM32F405   12MHz*14 crystal    ?       -6         adafruit 
+     RTC      32KHz   crystal     ?       77 
   edison      19.2MHz*26 crystal  ?       -3         millis()/rdtsc -1600
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
