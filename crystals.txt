@@ -70,21 +70,21 @@
     RTC       32KHz   crystal   10ppm     -9         CFS-20632768EZFB 
   teensy K64  16MHz   crystal   18ppm    -18         EPSON TSX-3225 no pins
     RTC       32KHz   crystal   10ppm     -8         CFS-20632768EZFB 
-  T4 beta1    24MHz   crystal     ?       -3         ? NXP 1052
+  T4 beta1    24MHz   crystal   30ppm     -3         ? NXP 1052
     RTC       32KHz   crystal   10ppm     -5         CFS-20632768EZFB ?
-  T4 beta1-2  24MHz   crystal     ?       -4         ? NXP 1052
+  T4 beta1-2  24MHz   crystal   30ppm     -4         ? NXP 1052
     RTC       32KHz   crystal   10ppm     -4         CFS-20632768EZFB ?
-  T4 beta2    24MHz   crystal     ?        1         ? NXP 1062
+  T4 beta2    24MHz   crystal   30ppm      1         ? NXP 1062
     RTC       32KHz   crystal   10ppm     -6         CFS-20632768EZFB ?
-  T4 beta2-2  24MHz   crystal     ?      -11         ? NXP 1062  T4B2R
+  T4 beta2-2  24MHz   crystal   30ppm    -11         ? NXP 1062  T4B2R
     RTC       32KHz   crystal   10ppm     10         CFS-20632768EZFB ?
-  T4-1        24MHz   crystal     ?      -11         ? NXP 1062  T4-1
+  T4-1        24MHz   crystal   30ppm    -11         ? NXP 1062  T4-1
     RTC       32KHz   crystal   10ppm     -3         CFS-20632768EZFB ?
-  T4-2        24MHz   crystal     ?      -10         ? NXP 1062  T4-2
+  T4-2        24MHz   crystal   30ppm    -10         ? NXP 1062  T4-2
     RTC       32KHz   crystal   10ppm     -5         CFS-20632768EZFB ?
-  T4.1        24MHz   crystal     ?       -7         ? NXP 1062  T4.1
+  T4.1        24MHz   crystal   30ppm     -7         ? NXP 1062  T4.1
     RTC       32KHz   crystal   10ppm     -2         CFS-20632768EZFB ?
-  T4.1-3      24MHz   crystal     ?      -11         ? NXP 1062  T4.1
+  T4.1-3      24MHz   crystal   30ppm    -11         ? NXP 1062  T4.1
     RTC       32KHz   crystal   10ppm      1         CFS-20632768EZFB ?
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
