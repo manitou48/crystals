@@ -41,6 +41,8 @@
   M0 BLE RC   32Khz     RC       1.5%  187693        ? OSC32K
   M0 BLE RC   32Khz     RC       5.5%   -3967        ? OSCULP32K
   M0 BLE RC   8MHZ      RC      0.75%    1169        ? OSC8M
+  M0 logger   32Khz*x crystal     ?       269        ? adalogger
+  M0 log RTC  32Khz   crystal     ?        21        ? adalogger
   artemis BLE 32Khz*x crystal     ?      1806        sparkfun micromod
   artemis RTC 32Khz   crystal     ?        21        sparkfun micromod
   CPX  RC     48MHz     RC       1.5%     25         OSC32K circuitplayground express NVM calibrated
