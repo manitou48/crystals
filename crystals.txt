@@ -43,8 +43,8 @@
   M0 BLE RC   8MHZ      RC      0.75%    1169        ? OSC8M
   M0 logger   32Khz*x crystal     20      269        adalogger NX3215SA
   M0 log RTC  32Khz   crystal     20       21        adalogger NX3215SA
-  artemis BLE 32Khz*x crystal     ?      1806        sparkfun micromod
-  artemis RTC 32Khz   crystal     ?        21        sparkfun micromod
+  artemis BLE 32Khz*x crystal     20     1806        sparkfun micromod
+  artemis RTC 32Khz   crystal     20       21        sparkfun micromod
   CPX  RC     48MHz     RC       1.5%     25         OSC32K circuitplayground express NVM calibrated
   Ada M4      32khz   crystal   20ppm   -138         NX3215SA-32.768K SAMD51
   Ada M4 RTC  32khz   crystal   20ppm      5         NX3215SA-32.768K SAMD51
