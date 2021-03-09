@@ -96,5 +96,7 @@ and another temperature study
 crystal frequency vs temperature
   https://ieee-uffc.org/frequency-control/educational-resources/introduction-to-quartz-frequency-standards-by-john-r-vig/introduction-to-quartz-frequency-standards-static-frequency-versus-temperature-stability/
 
+  Teensy 4 GPS PPS plots with Allan deviation
+  https://forum.pjrc.com/threads/61581-Teensy-4-1-NTP-server?p=246706&viewfull=1#post246706
 “One accurate measurement is worth a thousand expert opinions” 
   - Adm Grace Murray Hopper ( Dec 9 1906 to Jan 1 1992)
