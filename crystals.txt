@@ -92,7 +92,7 @@
     RTC       32KHz   crystal   10ppm     -2         CFS-20632768EZFB ?
   T4.1-3      24MHz   crystal   30ppm    -11         ? NXP 1062  T4.1
     RTC       32KHz   crystal   10ppm      1         CFS-20632768EZFB ?
-  NXP 1170    24MHz   crystal   20ppm    980         1170 EVK
+  NXP 1170    24MHz   crystal   20ppm     34         1170 EVK
     RTC       32KHz   crystal   20ppm    -61
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
