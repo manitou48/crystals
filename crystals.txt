@@ -109,6 +109,7 @@
   pico mm     12MHz   crystal   20ppm    -10         sparkfun micromod pico
   pico        12MHz   crystal   30ppm      4.5       rpi pico RP2040
   pico        12MHz   crystal   30ppm      2.8       rpi pico RP2040
+  pico        12MHz   crystal   25ppm      2        arduino pico RP2040 DSC6111HI2B
   edison      19.2MHz*26 crystal  ?       -3         millis()/rdtsc -1600
   propeller   5Mhz*16 crystal   30ppm    -17         board1 (quickstart)
   propeller   5Mhz*16 crystal   30ppm    -25         board2 (")  ABLS-5.000MHZ-B4-T
