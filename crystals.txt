@@ -123,6 +123,8 @@
    F446RE RTC 32KHz   crystal   20ppm     27         ABS25-32.768KHZ-6-T
   mbed F469NI  8MHz*x crystal   20ppm    -17         NX3225GD-8.00M  @168mhz
    F469NI RTC 32KHz   crystal   20ppm     -2         NX3215SA-32.768K 
+  mbed F767ZI  8MHz*x crystal   50ppm     -1         NX3225GD-8.00M  @168mhz
+   F767ZI RTC 32KHz   crystal   20ppm    -15         NX3215SA-32.768K 
   mbed L476VG  4MHz    RC       0.25%   -569         MSI 122*32768 = -576 ppm
       RTC     32KHz   crystal   20ppm      9         NX3215SA  EXS00A-MU00525
   mbed L476RG  4MHz    RC       0.25%   -578         9SL8000012AFXHF0-SJ28
