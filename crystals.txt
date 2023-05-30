@@ -97,6 +97,8 @@
   NXP 1170    24MHz   crystal   20ppm     34         1170 EVK
     RTC       32KHz   crystal   20ppm    -47
 	RC        24MHz   RC          ?      920         GPT RC clock
+  NXP 1110    24MHz   crystal   20ppm     22         1110 EVK
+    RTC       32KHz   crystal   20ppm     44
   WICED       26MHz     ?         ?        8         STM32F205
     RTC       32KHz     ?         ?       62           LSEON
   photon      26MHz     ?         ?        9         STM32F205
