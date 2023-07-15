@@ -36,6 +36,7 @@
   ZERO RC     32khz     RC       5.5%  -4989         OSCULP32K
   ZERO RC     32khz     RC       1.5%  -2953         OSC32K NVM calibrated
   ZERO RC     8MHz      RC      0.75%   4167         OSC8M
+  R4          16MHZ   crystal     ?        9
   M0 BLE      32Khz*x crystal     ?      689         ? 1464*32768  -576 ppm
   M0 BLE RTC  32Khz   crystal     ?       12         ? XOSC32K
   M0 BLE RC   32Khz     RC       1.5%  187693        ? OSC32K
